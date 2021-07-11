@@ -23,4 +23,14 @@ test_equal.py
 => pytest -k <substring> -v => pytest -k great -v 
 => This will execute which file name has its own name contains "great"
 
+# Fixtures
+
+Fixtures are functions, which will run before each test function to which it is applied.
+
+# Conftest
+
+Define fixture in conftest.py file then use across various files
+
+
+
 
